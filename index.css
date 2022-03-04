@@ -6,6 +6,22 @@ body{
   color:#00454E
 }
 
+label {
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+input{
+  vertical-align: middle;
+  position: relative;
+}
+
+#text{
+  vertical-align: middle;
+  position: absolute;
+}
+
 .header{
 text-align: center;
 font-size: 40px;
