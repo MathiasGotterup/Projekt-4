@@ -1,8 +1,7 @@
 body{
   background-color: #CAE4E3;
   max-height: auto;
-  margin: auto;
-  height: auto;
+  max-width: auto;
   color:#00454E;
   font-family: Proxima Nova Alt;
 }
@@ -46,6 +45,8 @@ margin: 20px;
   color: white;
   border-radius: 0 5px 5px 0;
   margin-top: 200px;
+  background-color: yellow;
+  color: black;
 }
 
 #sideNav a:hover {
@@ -53,44 +54,134 @@ margin: 20px;
 }
 
 #typografi {
-
-  top: 20px;
-  background-color: #04AA6D;
+top: 20px;
 }
 
 #knapper {
-  top: 100px;
-  background-color: #2196F3;
+top: 100px;
 }
 
 #farver {
-  top: 180px;
-  background-color: #f44336;
+top: 180px;
 }
 
 #formular {
-  top: 260px;
-  background-color: black;
+top: 260px;
 }
 
 #ikoner {
-  top: 340px;
-  background-color: purple;
+top: 340px;
 }
 
 #navigation {
-  top: 420px;
-  background-color: brown;
+top: 420px;
+}
+
+.header_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #header_tekst{
   text-align: center;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 #header_box{
-  width: 250px;
-  height: 100px;
-  background-color: black;
-  margin-left: 200px;
+  font-size: 51px;
+  text-align: center;
+}
+
+.subheader_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#subheader_tekst{
+  text-align: center;
+  font-size: 19px;
+}
+
+#subheader_box{
+  font-size: 35px;
+  text-align: center;
+}
+
+.tekst_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#tekst_tekst{
+  text-align: center;
+  font-size: 19px;
+}
+
+#tekst_box{
+  text-align: center;
+  font-size: 19px;
+}
+
+.farve_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  grid-gap: 20px;
+}
+
+.turquoise
+{
+  width: 75px;
+  height: 75px;
+  background-color: #47B9B3;
+  color: black;
+}
+
+.skintone{
+  width: 75px;
+  height: 75px;
+  background-color: #F2CAC1;
+  color: black;
+}
+
+.purple{
+  width: 75px;
+  height: 75px;
+  background-color: #444059;
+  color: white;
+}
+
+.black{
+  width: 75px;
+  height: 75px;
+  background-color: #000000;
+  color: white;
+}
+
+.lightblue{
+  width: 75px;
+  height: 75px;
+  background-color: #CAE4E3;
+  color: black;
+}
+
+.white{
+  width: 75px;
+  height: 75px;
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.midnightblue{
+  width: 75px;
+  height: 75px;
+  background-color: #00454E;
+  color: white;
+}
+
+.red{
+  width: 75px;
+  height: 75px;
+  background-color: #A81A1A;
+  color: white;
 }
