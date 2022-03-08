@@ -4,6 +4,7 @@ body{
   max-width: auto;
   color:#00454E;
   font-family: Proxima Nova Alt;
+  margin:auto;
 }
 
 label {
@@ -27,7 +28,7 @@ margin: 20px;
 }
 
 .virk{
-  position: fixed;
+  position: absolute;
   top: 10px;
   left: 10px;
   width: 200px;
@@ -80,6 +81,8 @@ top: 420px;
 .header_container{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #header_tekst{
@@ -95,6 +98,8 @@ top: 420px;
 .subheader_container{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #subheader_tekst{
@@ -110,6 +115,8 @@ top: 420px;
 .tekst_container{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #tekst_tekst{
@@ -124,9 +131,14 @@ top: 420px;
 
 .farve_container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 100px 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 25%;
 }
 
 .turquoise
@@ -135,6 +147,8 @@ top: 420px;
   height: 75px;
   background-color: #47B9B3;
   color: black;
+  border-radius: 20px;
+
 }
 
 .skintone{
@@ -142,6 +156,7 @@ top: 420px;
   height: 75px;
   background-color: #F2CAC1;
   color: black;
+  border-radius: 20px;
 }
 
 .purple{
@@ -149,6 +164,7 @@ top: 420px;
   height: 75px;
   background-color: #444059;
   color: white;
+  border-radius: 20px;
 }
 
 .black{
@@ -156,6 +172,8 @@ top: 420px;
   height: 75px;
   background-color: #000000;
   color: white;
+  border-radius: 20px;
+  border: solid grey 2px;
 }
 
 .lightblue{
@@ -163,6 +181,8 @@ top: 420px;
   height: 75px;
   background-color: #CAE4E3;
   color: black;
+  border-radius: 20px;
+  border: solid black 2px
 }
 
 .white{
@@ -170,6 +190,7 @@ top: 420px;
   height: 75px;
   background-color: #FFFFFF;
   color: black;
+  border-radius: 20px;
 }
 
 .midnightblue{
@@ -177,6 +198,7 @@ top: 420px;
   height: 75px;
   background-color: #00454E;
   color: white;
+  border-radius: 20px;
 }
 
 .red{
@@ -184,4 +206,9 @@ top: 420px;
   height: 75px;
   background-color: #A81A1A;
   color: white;
+  border-radius: 20px;
+}
+
+.sort{
+  border: solid grey 2px;
 }
