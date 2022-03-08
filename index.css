@@ -208,3 +208,9 @@ top: 420px;
   color: white;
   border-radius: 20px;
 }
+
+.ikon_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+}
