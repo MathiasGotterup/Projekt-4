@@ -37,10 +37,10 @@ margin: 20px;
 
 #sideNav a {
   position: absolute;
-  left: -149px;
+  left: -157px;
   transition: 0.5s;
   padding: 15px;
-  width: 250px;
+  width: 240px;
   text-decoration: none;
   font-size: 30px;
   color: white;
@@ -66,7 +66,7 @@ top: 100px;
 top: 180px;
 }
 
-#indstillinger {
+#formular {
 top: 260px;
 }
 
@@ -211,9 +211,8 @@ top: 420px;
 
 .ikon_container{
   display: grid;
-  grid-template-columns: 1fr 1FR;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
-  grid-gap: 25px;
   margin-right: 25%;
   margin-left: 25%;
 }
@@ -264,6 +263,7 @@ footer {
   width: 100%;
   bottom: 150px;
   position: fixed;
+  bottom: 0;
 }
 
 .fbtn {
@@ -284,4 +284,40 @@ footer {
   margin-bottom: 5px;
   height: 50px;
   width: auto;
+}
+
+code {
+    color: #000000;
+    background-color: #f9f9f9;
+    border: 1px solid #D0D0D0;
+    display: block;
+    height: 200px;
+    width: 450px;
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+code1 {
+    color: #000000;
+    background-color: #f9f9f9;
+    border: 1px solid #D0D0D0;
+    display: block;
+    height: 200px;
+    width: 450px;
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: -14%;
+    float: right;
+}
+
+
+.htmltekst{
+  float: left;
+  margin-left: 18%;
+}
+.csstekst{
+float: right;
+margin-right: 8.5%;
 }
