@@ -312,7 +312,6 @@ code1 {
     float: right;
 }
 
-
 .htmltekst{
   float: left;
   margin-left: 18%;
@@ -320,4 +319,26 @@ code1 {
 .csstekst{
 float: right;
 margin-right: 8.5%;
+}
+
+#knapper_container{
+  display: flex;
+  
+  border: 2px solid black;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.knap{
+  width: 100px;
+  height: 100px;
+  background-color: yellow
+}
+
+.beskrivelse{
+
+}
+
+.kode{
+
 }
