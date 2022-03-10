@@ -357,3 +357,22 @@ margin-right: 8.5%;
  margin-left: 45%;
  margin-top: -17%;
  width: 250px
+}
+
+#knapper_pile{
+  border: 2px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 250px;
+  width: auto;
+}
+
+.beskrivelse_pile{
+  padding: 10px;
+}
+
+#kode_pile{
+ margin-left: 45%;
+ margin-top: -17%;
+ width: 250px
+}
