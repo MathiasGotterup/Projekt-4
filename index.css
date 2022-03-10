@@ -257,6 +257,10 @@ top: 420px;
   height: 35px;
 }
 
+.ikon_indstillinger{
+  width: 35px;
+  height: 35px;
+}
 footer {
   display: flex;
   justify-content: space-around;
