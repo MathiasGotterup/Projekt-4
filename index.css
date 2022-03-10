@@ -364,7 +364,10 @@ margin-right: 8.5%;
   margin-left: 20%;
   margin-right: 20%;
   height: 250px;
-  width: auto;
+}
+
+.knap{
+  margin-left: 10%;
 }
 
 .beskrivelse_pile{
@@ -376,3 +379,24 @@ margin-right: 8.5%;
  margin-top: -17%;
  width: 250px
 }
+
+#knapper_login{
+  border: 2px solid black;
+  height: 250px;
+}
+
+.knap_login{
+  margin-left: 5%;
+  width: 150px;
+  height: 35px;
+}
+
+.beskrivelse_login{
+  padding: 10px;
+}
+
+#kode_login{
+  margin-left: 45%;
+  margin-top: -10%;
+  width: 250px
+ }
