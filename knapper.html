@@ -20,11 +20,31 @@
      <a href="ikoner.html" id="ikoner">Ikoner</a>
      <a href="navigation.html" id="navigation">Navigation</a>
    </div>
-   <div id="knapper_container">
-     <div class="knap"> </div>
-     <div class="beskrivelse"> </div>
-     <div class="kode"> </div>
+   <div id="knapper_seopslag">
+     <button class="knap_seopslag">Se opslag &#8250;</button>
+     <p class="beskrivelse_seopslag"> Se opslag bliver brugt til at brugeren kan udvide beskeden<br> Derudover er knappen blivet stylet gennem CSS <br></p>
+     <div class="kode_seopslag"> <pre><code style="overflow: scroll;" style="overflow: auto;">
+       CSS
+       .knap{
+         color: #00454E;
+         font-family: 'Proxima Nova Alt ';
+         font-size: 19px;
+         background-color: #CAE4E3;
+         text-decoration: underline;
+         border: none;
+         border-radius: 10px;
+         padding: 3%;
+         margin-top: 0%;
+         margin-left: 5%;
+       }
+
+       .knap:hover {
+           background-color: rgb(71,185,179,80%);
+       }
+        }
+      </code></pre></div>
    </div>
+   
 <div class= "tester">
    <label for="myCheck">Har du forstået vores brug af knapper?</label>
    <input type="checkbox" id="myCheck" onclick="myFunction()">

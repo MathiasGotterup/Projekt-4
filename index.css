@@ -308,7 +308,7 @@ code1 {
     align-items: center;
     margin-left: 18%;
     margin-right: 18%;
-    margin-top: -14%;
+    margin-top: -11.3%;
     float: right;
 }
 
@@ -321,24 +321,35 @@ float: right;
 margin-right: 8.5%;
 }
 
-#knapper_container{
-  display: flex;
-  
+#knapper_seopslag{
   border: 2px solid black;
   margin-left: 25%;
   margin-right: 25%;
+  height: 250px;
 }
 
-.knap{
-  width: 100px;
-  height: 100px;
-  background-color: yellow
+.knap_seopslag{
+  color: #00454E;
+  font-family: 'arial';
+  font-size: 19px;
+  background-color: #CAE4E3;
+  text-decoration: underline;
+  border: none;
+  border-radius: 10px;
+  padding: 3%;
+  margin-top: 0%;
+  margin-left: 5%;
 }
 
-.beskrivelse{
-
+.knap_seopslag:hover {
+    background-color: rgb(71,185,179,80%);
 }
 
-.kode{
+.beskrivelse_seopslag{
+  padding: 10px;
+}
 
+.kode_seopslag{
+ margin-left: 40%;
+ margin-top: -17%;
 }
