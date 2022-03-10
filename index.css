@@ -261,6 +261,17 @@ top: 420px;
   width: 35px;
   height: 35px;
 }
+
+.ikon_eyeno{
+  width: 35px;
+  height: 35px;
+}
+
+.ikon_eyeyes{
+  width: 35px;
+  height: 35px;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
