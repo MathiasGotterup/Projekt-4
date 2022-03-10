@@ -86,7 +86,52 @@
       <p class="beskrivelse_login"> Dette bruges til at brueren kan logge in på EZInFo</p>
       <div id="kode_login"> <pre><code style="overflow: scroll;" style="overflow: auto;">
 &lt;button onclick="sub()"/&gtSign in&lt;/button/&gt
-       </code></pre></div>
+</code></pre></div> </div>
+<br>
+<div id="knapper_logud">
+<button class="logud">Log ud <img src="billeder/logud.png" alt="logud" class="logudikon"></button>
+  <p class="beskrivelse_logud"> Gør at brugeren kan logge ud. Den er også stylet i CSS <br></p>
+  <div class="kode_logud"> <pre><code style="overflow: scroll;" style="overflow: auto;">
+
+HTML
+
+&ltbutton class="logud"/&gtLog ud &ltimg src="billeder/logud.png" alt="logud" class="logudikon"/&gt &lt/button/&gt
+
+CSS
+    .logud {
+        color: #00454E;
+        font-family: 'arial';
+        font-size: 15px;
+        background-color: #ffffff;
+        text-decoration: underline;
+        border: none;
+        border-radius: 10px;
+        padding: 2%;
+        width: 120px;
+        max-width: 100%;
+        margin-left: 40%;
+    }
+
+    .logud:hover {
+        background-color: rgb(71,185,179,80%);
+    }
+
+    .logudikon {
+        width: 15px;
+        max-width: 100%;
+        margin-left: 8px;
+    }
+   </code></pre></div>
+</div>
+<br>
+<div id="knapper_send">
+  <p><input id="mybtn" type="submit" value="Send" class="send_knap"> <span id="status"></span></p>
+  <p class="beskrivelse_send"> Gør at brugeren kan sende kontaktformularen. <br>Den er også stylet i CSS</p>
+  <div class="kode_send"> <pre><code style="overflow: scroll;" style="overflow: auto;">
+  &ltp&gt &ltinput id="mybtn" type="submit" value="Send"/&gt &ltspan id="status"/&gt &lt/span>&lt/p/&gt
+  }
+   </code></pre></div>
+</div>
 <div class= "tester">
    <label for="myCheck">Har du forstået vores brug af knapper?</label>
    <input type="checkbox" id="myCheck" onclick="myFunction()">
