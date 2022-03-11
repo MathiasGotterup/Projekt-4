@@ -486,3 +486,23 @@ margin-right: 8.5%;
   max-width: 100%;
   margin-left: 100px;
 }
+
+#kontakt{
+  text-align: center;
+}
+
+#n {
+  width: 250px;
+}
+
+#e {
+  width: 250px;
+}
+
+#m {
+  width: 250px;
+}
+
+#my_form {
+  text-align: center;
+}
