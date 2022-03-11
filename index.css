@@ -1,7 +1,5 @@
 body{
   background-color: #CAE4E3;
-  max-height: auto;
-  max-width: auto;
   color:#00454E;
   font-family: Proxima Nova Alt;
   margin:auto;
@@ -20,6 +18,7 @@ text-align: center;
 #text{
   text-align: center;
 }
+
 
 .header{
 text-align: center;
@@ -305,25 +304,20 @@ code {
     color: #000000;
     background-color: #f9f9f9;
     border: 1px solid #D0D0D0;
-    display: block;
     height: 200px;
+    display: block;
     width: 450px;
     align-items: center;
     margin-left: 18%;
     margin-right: 18%;
 }
 
-code1 {
+#kodehojre {
     color: #000000;
-    background-color: #f9f9f9;
-    border: 1px solid #D0D0D0;
-    display: block;
     height: 200px;
     width: 450px;
-    align-items: center;
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-top: -14%;
+    margin-right: 23.5%;
+    margin-top: -15%;
     float: right;
 }
 
@@ -337,6 +331,40 @@ margin-right: 8.5%;
 }
 
 #knapper_seopslag{
+  border: 2px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 250px;
+  width: auto;
+}
+
+.knap_selektier{
+  color: #00454E;
+  font-family: 'arial';
+  font-size: 19px;
+  background-color: #CAE4E3;
+  text-decoration: underline;
+  border: none;
+  border-radius: 10px;
+  padding: 3%;
+  margin-left: 5%;
+}
+
+.knap_selektier:hover {
+    background-color: rgb(71,185,179,80%);
+}
+
+.beskrivelse_selektier{
+  padding: 10px;
+}
+
+.kode_selektier{
+ margin-left: 45%;
+ margin-top: -17%;
+ width: 250px
+}
+
+#knapper_selektier{
   border: 2px solid black;
   margin-left: 20%;
   margin-right: 20%;
@@ -394,6 +422,8 @@ margin-right: 8.5%;
 #knapper_login{
   border: 2px solid black;
   height: 250px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .knap_login{
@@ -415,6 +445,8 @@ margin-right: 8.5%;
 #knapper_logud{
   border: 2px solid black;
   height: 250px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .logud {
     color: #00454E;
@@ -452,6 +484,8 @@ margin-right: 8.5%;
 #knapper_send{
   border: 2px solid black;
   height: 250px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .send_knap {
@@ -469,6 +503,8 @@ margin-right: 8.5%;
 #knapper_eye{
   border: 2px solid black;
   height: 250px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .beskrivelse_eye{
