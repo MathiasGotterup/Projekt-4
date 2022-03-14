@@ -1,4 +1,4 @@
-// Mathias og Lucas javascript
+// Mathias javascript
 function myFunction() {
   let checkBox = document.getElementById("myCheck");
   let text = document.getElementById("text");
@@ -21,6 +21,8 @@ for (let i = 0; i < knapper.length; i++) {
   }
 }
 }
+
+//Lucas javascript
 
 let farver = ["white", "purple", "black","lightblue",];
 let text ="";
